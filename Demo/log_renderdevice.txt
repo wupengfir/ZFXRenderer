@@ -1,0 +1,9 @@
+ZFXEngine ZFXD3D-RenderDevice Log File:
+
+calling dialog... 
+returning from dialog... 
+selection dialog ok
+firing up direct3d 
+everything initialized smoothly... 
+shutting down direct3d 
+shutdown completed 

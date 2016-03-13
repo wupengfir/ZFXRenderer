@@ -83,10 +83,10 @@ typedef class ZFXRenderDevice *LPZFXRENDERDEVICE;
 
 
 extern "C" {
-   HRESULT CreateRenderDevice(HINSTANCE hDLL, ZFXRenderDevice **pInterface);
+   
    typedef HRESULT (*CREATERENDERDEVICE)(HINSTANCE hDLL, ZFXRenderDevice **pInterface);
    
-   HRESULT ReleaseRenderDevice(ZFXRenderDevice **pInterface);
+  
    typedef HRESULT (*RELEASERENDERDEVICE)(ZFXRenderDevice **pInterface);
    }
 /*----------------------------------------------------------------*/

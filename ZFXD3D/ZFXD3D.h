@@ -12,6 +12,10 @@ BOOL WINAPI DllEntryPoint( HINSTANCE hDll,
 #include <d3d9.h>
 //#pragma comment(lib, "dxguid.lib")
 
+
+EXTERN_C _declspec(dllexport) HRESULT CreateRenderDevice(HINSTANCE hDLL, ZFXRenderDevice **pInterface);
+EXTERN_C _declspec(dllexport) HRESULT ReleaseRenderDevice(ZFXRenderDevice **pInterface);
+
 // one for each AdapterFormat-BackbufferFormat-WindowMode
 // (windowed or fullscreen) combination that is valid
 struct ZFXCOMBOINFO {
