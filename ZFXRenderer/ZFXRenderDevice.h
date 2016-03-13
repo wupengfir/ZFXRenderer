@@ -7,6 +7,7 @@
 
 #include <windows.h>
 #include <stdio.h>
+#include <string>
 
 
 // D E F I N E S ///////////////////////////////////////////////////
