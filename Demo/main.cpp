@@ -7,7 +7,7 @@
 #include "main.h"         // prototypes and stuff
 
 //include our library
-#pragma comment(lib, "../Release/ZFXRenderer.lib")
+#pragma comment(lib, "../Debug/ZFXRenderer.lib")
 
 
 // windows stuff
@@ -36,7 +36,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInstance,
    HRESULT     hr;
    HWND		   hWnd;
    MSG			msg;
-   
+   memset(&msg,0,sizeof(MSG));
    // Set up window attributes
    wndclass.cbSize         = sizeof(wndclass);
    wndclass.style          = CS_HREDRAW | CS_VREDRAW | CS_OWNDC | CS_DBLCLKS;
