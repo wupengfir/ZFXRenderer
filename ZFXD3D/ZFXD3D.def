@@ -1,1 +1,4 @@
-LIBRARY
+LIBRARY "ZFXD3D.dll"
+EXPORT 
+	CreateRenderDevice
+	ReleaseRenderDevice
